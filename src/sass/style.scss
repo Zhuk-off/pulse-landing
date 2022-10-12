@@ -8,14 +8,16 @@
 @import 'blocks/titles';
 @import 'blocks/forms';
 @import 'blocks/carousel';
+@import 'blocks/catalog';
 
 * {
     font-family: 'MuseoModerno';
+    box-sizing: border-box;
 }
 
 .container {
     padding: 0 15px;
-    max-width: 950px;
+    max-width: 980px;
     margin: 0 auto;
 }
 
