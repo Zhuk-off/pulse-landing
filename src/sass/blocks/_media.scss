@@ -3,7 +3,17 @@
 
 @media (max-width: 991px) {
     .consultation {
-        min-height: 500px;}
+        min-height: 500px;
+    }
+    .carousel {
+        &__inner {
+            max-width: 610px;
+            max-height: 440px;
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -42,6 +52,32 @@
     }
     .feed-form {
         margin-top: 25px;
+    }
+    .carousel {
+        &__inner {
+            .slick-dots {
+                display: flex;
+                justify-content: center;
+                gap: 35px;
+                padding: 0;
+                list-style-type: none;
+                outline: none;
+                button {
+                    border: none;
+                    padding: 0;
+                    width: 8px;
+                    height: 8px;
+                    // border-radius: 100%;
+                    color: rgba($color: #fff, $alpha: 0);
+                    background-color: #d0d0d0;
+                }
+                .slick-active {
+                    button {
+                        background-color: #9f9f9f;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -104,7 +140,6 @@
         .title {
             font-size: 24px;
         }
-
     }
     .feed-form {
         margin-top: 36px;
@@ -144,7 +179,7 @@
     .consultation {
         min-height: 352px;
         padding: 10px 15px 10px 5px;
-   
+
         &__descr {
             font-size: 14px;
         }
@@ -155,5 +190,27 @@
     .feed-form {
         width: 100%;
         margin-top: 25px;
+    }
+    .carousel {
+        &__inner {
+            .slick-dots {
+               
+                gap: 25px;
+              
+                button {
+                  
+                    width: 5px;
+                    height: 5px;
+                    // border-radius: 100%;
+                    color: rgba($color: #fff, $alpha: 0);
+                    background-color: #d0d0d0;
+                }
+                .slick-active {
+                    button {
+                        background-color: #9f9f9f;
+                    }
+                }
+            }
+        }
     }
 }

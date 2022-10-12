@@ -5,11 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="fonts/stylesheet.css" />
+        <link rel="stylesheet" type="text/css" href="css/slick.css" />
         <link rel="stylesheet" href="css/style.min.css" />
         <title>Document</title>
     </head>
     <body>
-        <div class="promo">
+        <section class="promo">
             <div class="container">
                 <header class="header">
                     <a href="#" class="header__logo">
@@ -62,8 +63,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="benefits">
+        </section>
+        <section class="benefits">
             <div class="container">
                 <h2 class="benefits__header">НАШИ ПРЕИМУЩЕСТВА</h2>
                 <div class="benefits__items">
@@ -98,8 +99,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="consultation">
+        </section>
+        <section class="consultation">
             <div class="container">
                 <h2 class="title title_left">
                     Получите бесплатную консультацию <br />
@@ -109,13 +110,51 @@
                     Просто заполните форму заявки <br />
                     и мы перезвоним вам в течении 10 минут
                 </div>
-                <form class="feed-form"   action="#">
-                    <input name="name" required type="text" placeholder="Ваше имя" />
-                    <input name="phone" required type="number" placeholder="Ваш телефон" />
-                    <input name="email" required type="email" placeholder="Ваш email" />
-                    <button class="button button_submit">заказать консультацию</button>
+                <form class="feed-form" action="#">
+                    <input
+                        name="name"
+                        required
+                        type="text"
+                        placeholder="Ваше имя"
+                    />
+                    <input
+                        name="phone"
+                        required
+                        type="number"
+                        placeholder="Ваш телефон"
+                    />
+                    <input
+                        name="email"
+                        required
+                        type="email"
+                        placeholder="Ваш email"
+                    />
+                    <button class="button button_submit">
+                        заказать консультацию
+                    </button>
                 </form>
             </div>
-        </div>
+        </section>
+
+        <section class="carousel">
+            <div class="container">
+                <div class="carousel__inner">
+                    <div><img src="img/slider1.png" alt="slide 1" /></div>
+                    <div><img src="img/slider2.png" alt="slide 2" /></div>
+                    <div><img src="img/slider3.png" alt="slide 3" /></div>
+                </div>
+            </div>
+        </section>
+
+        <script
+            type="text/javascript"
+            src="https://code.jquery.com/jquery-1.11.0.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+        ></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
