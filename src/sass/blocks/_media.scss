@@ -79,6 +79,15 @@
             }
         }
     }
+    .catalog {
+        &__tab {
+            width: 222px;
+            height: 45px;
+            line-height: 45px;
+            font-weight: 400;
+            font-size: 15px;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -150,6 +159,21 @@
             font-size: 14px;
         }
     }
+    .carousel {
+        padding-bottom: 30px;
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 50px;
+            gap: 5px;
+        }
+        &__tab {
+            width: 120px;
+            height: 35px;
+            line-height: 33px;
+            font-size: 10px;
+        }
+    }
 }
 
 @media (max-width: 400px) {
@@ -194,11 +218,8 @@
     .carousel {
         &__inner {
             .slick-dots {
-               
                 gap: 25px;
-              
                 button {
-                  
                     width: 5px;
                     height: 5px;
                     // border-radius: 100%;
@@ -211,6 +232,23 @@
                     }
                 }
             }
+        }
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 50px;
+            gap: 5px;
+            flex-wrap: wrap;
+        }
+        &__tab {
+            width: 120px;
+            height: 35px;
+            line-height: 33px;
+            font-size: 10px;
+        }
+        &__content {
+            margin-top: 50px;
+            justify-content: center;
         }
     }
 }
