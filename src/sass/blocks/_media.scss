@@ -178,7 +178,7 @@
         margin-top: 36px;
         input {
             height: 39px;
-            margin-bottom: 13px;
+            margin-top: 13px;
             padding: 0 15px;
             font-size: 14px;
         }
@@ -216,8 +216,9 @@
         min-height: 320px;
 
         &__close {
-            top: 10px;
-            right: 10px;
+            font-size: 24px;
+            top: 5px;
+            right: 5px;
         }
     }
 }
