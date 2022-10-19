@@ -1,6 +1,7 @@
 .benefits {
     min-height: 359px;
     padding: 73px 0 65px 0;
+    background-color: #F6F6F6;
     &__header {
         font-weight: 700;
         font-size: 30px;
@@ -25,6 +26,7 @@
             width: 70px;
             height: 70px;
         }
+
     }
     &__subheader {
         margin-top: 35px;
@@ -45,6 +47,11 @@
         a {
             color: #FF0000;
             white-space: nowrap;
+        }
+    }
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
         }
     }
 }

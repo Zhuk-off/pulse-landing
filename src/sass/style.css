@@ -1,3 +1,31 @@
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
 .promo {
   min-height: 557px;
   padding: 21px 0 93px 0;
@@ -180,6 +208,7 @@
 .benefits {
   min-height: 359px;
   padding: 73px 0 65px 0;
+  background-color: #F6F6F6;
 }
 .benefits__header {
   font-weight: 700;
@@ -235,6 +264,10 @@
 .benefits__descr a {
   color: #FF0000;
   white-space: nowrap;
+}
+.benefits__icon_animated {
+  -webkit-animation: heartbeat 1.5s ease infinite;
+          animation: heartbeat 1.5s ease infinite;
 }
 
 .consultation {
