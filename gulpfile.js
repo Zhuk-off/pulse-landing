@@ -57,10 +57,7 @@ gulp.task('mailer', function () {
 });
 
 gulp.task('images', function () {
-    return gulp
-        .src('src/img/**/*')
-        .pipe(imagemin())
-        .pipe(gulp.dest('dist/img'));
+    return gulp.src('src/img/**/*').pipe(gulp.dest('dist/img'));
 });
 
 gulp.task(

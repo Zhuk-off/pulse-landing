@@ -13,18 +13,16 @@
         display: flex;
         justify-content: space-between;
         gap: 30px;
-        // align-items: center;
         margin-top: 60px;
     }
     &__item {
         display: flex;
         flex-direction: column;
-        // justify-content: space-between;
         align-items: center;
         max-width: 273px;
         img {
             width: 70px;
-            height: 70px;
+            height: 65px;
         }
 
     }
@@ -45,7 +43,7 @@
         line-height: 18px;
         color: #0d0d0d;
         a {
-            color: #FF0000;
+            color: #be0000;
             white-space: nowrap;
         }
     }
